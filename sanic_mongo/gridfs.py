@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
+
 """
 gridfs使用的模块,用于存储文件到mongodb,
 需要设置app.config中的GRIDFS_URIS字段,格式为:
@@ -16,7 +16,7 @@ __all__ = ["Core"]
 
 from sanic.log import logger as log
 
-from sanic_mongo.standalone import GridFSBucket
+from .standalone import GridFSBucket
 
 
 class Core:

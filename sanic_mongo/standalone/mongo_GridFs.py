@@ -1,7 +1,7 @@
 from motor.motor_asyncio import AsyncIOMotorGridFSBucket
 
 
-from sanic_mongo.standalone import MongoConnection
+from . import MongoConnection
 
 #class GridFSBucket(AsyncIOMotorGridFSBucket):
 class GridFSBucket:
